@@ -40,11 +40,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dvir\\source\\repos\\Managment System Ptoject\\Managment System Ptoject\\Managment System Ptoject.csproj",
+      "projectUniqueName": "C:\\Users\\Dvir\\OneDrive - Holon Institute of Technology\\מסמכים\\GitHub\\ManagmentSystemProject\\Managment System Ptoject\\Managment System Ptoject.csproj",
       "projectName": "Managment System Ptoject",
-      "projectPath": "C:\\Users\\Dvir\\source\\repos\\Managment System Ptoject\\Managment System Ptoject\\Managment System Ptoject.csproj",
+      "projectPath": "C:\\Users\\Dvir\\OneDrive - Holon Institute of Technology\\מסמכים\\GitHub\\ManagmentSystemProject\\Managment System Ptoject\\Managment System Ptoject.csproj",
       "packagesPath": "C:\\Users\\Dvir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dvir\\source\\repos\\Managment System Ptoject\\Managment System Ptoject\\obj\\",
+      "outputPath": "C:\\Users\\Dvir\\OneDrive - Holon Institute of Technology\\מסמכים\\GitHub\\ManagmentSystemProject\\Managment System Ptoject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

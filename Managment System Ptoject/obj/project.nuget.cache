@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5QX1NDwCWJ8cuEOUcF/bsVnomNAqOi+6RuDFjTbH2a9s3OhHqzwPtKCr7K1yQv1GEOH5t93cRHttmgG0zBf6UA==",
+  "dgSpecHash": "gCwIl4MkXHkxb+L8GKr/zszuwO7CI+nYPoaHW8NWYhj1neFWHo2HpxOT1TmZcUhCb0YO+MIxPV3kcmHOUUEimA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dvir\\source\\repos\\Managment System Ptoject\\Managment System Ptoject\\Managment System Ptoject.csproj",
+  "projectFilePath": "C:\\Users\\Dvir\\OneDrive - Holon Institute of Technology\\מסמכים\\GitHub\\ManagmentSystemProject\\Managment System Ptoject\\Managment System Ptoject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dvir\\.nuget\\packages\\tulpep.notificationwindow\\1.1.38\\tulpep.notificationwindow.1.1.38.nupkg.sha512"
   ],

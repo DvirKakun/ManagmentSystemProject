@@ -1,0 +1,24 @@
+[
+  {
+    "_username": "dvirkakun",
+    "_password": "Dk123456",
+    "_firstName": "dvir",
+    "_lastName": "kakun",
+    "_salary": 10000.0,
+    "_phoneNumber": "1234567",
+    "_mail": "dvir@walla.com",
+    "_employmentDate": {
+      "_day": 1,
+      "_month": 5,
+      "_year": 2023
+    },
+    "_serialNumber": 1,
+    "_department": "Manager",
+    "_dateOfBirth": {
+      "_day": 31,
+      "_month": 12,
+      "_year": 2004
+    },
+    "_gender": "Female"
+  }
+]

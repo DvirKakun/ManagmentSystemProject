@@ -1,0 +1,28 @@
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\bin\Debug\net5.0-windows\Managment System Ptoject.exe
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\bin\Debug\net5.0-windows\Managment System Ptoject.deps.json
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\bin\Debug\net5.0-windows\Managment System Ptoject.runtimeconfig.json
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\bin\Debug\net5.0-windows\Managment System Ptoject.runtimeconfig.dev.json
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\bin\Debug\net5.0-windows\Managment System Ptoject.dll
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\bin\Debug\net5.0-windows\ref\Managment System Ptoject.dll
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\bin\Debug\net5.0-windows\Managment System Ptoject.pdb
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment System Ptoject.csproj.AssemblyReference.cache
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment_System_Ptoject.Properties.Resources.resources
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment System Ptoject.csproj.GenerateResource.cache
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment System Ptoject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment System Ptoject.AssemblyInfoInputs.cache
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment System Ptoject.AssemblyInfo.cs
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment System Ptoject.csproj.CoreCompileInputs.cache
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment System Ptoject.dll
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\ref\Managment System Ptoject.dll
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment System Ptoject.pdb
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment System Ptoject.genruntimeconfig.cache
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment_System_Ptoject.uplodingScreen.resources
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment_System_Ptoject.LoginScreen.resources
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment System Ptoject.csproj.CopyComplete
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment_System_Ptoject.SignUp.resources
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment_System_Ptoject.ViewForm.resources
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\bin\Debug\net5.0-windows\Tulpep.NotificationWindow.dll
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment_System_Ptoject.AddEmployee.resources
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment_System_Ptoject.EmployeeReport.resources
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment_System_Ptoject.EditEmployee.resources
+C:\Users\Dvir\source\repos\Managment System Ptoject\Managment System Ptoject\obj\Debug\net5.0-windows\Managment_System_Ptoject.imageValidation.resources

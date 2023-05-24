@@ -21,6 +21,7 @@ namespace Managment_System_Ptoject
         {
             InitializeComponent();
             employeeImg.AllowDrop = true;
+            int x;
         }
 
         private void firstName_KeyPress(object sender, KeyPressEventArgs e)

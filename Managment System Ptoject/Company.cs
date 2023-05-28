@@ -21,27 +21,7 @@ namespace Managment_System_Ptoject
         public void AddWorker(Worker worker) //Add worker by the rellevant type of class and update his S.N
         {
             worker._serialNumber = ++counter;
-            if(worker is Manager)
-            {
-                this._myCompanyList.Add((Manager)worker);
-            }
-            else if (worker is CleaningEmployee)
-            {
-                this._myCompanyList.Add((CleaningEmployee)worker);
-            }
-            else if (worker is MaintenanceEmployee)
-            {
-                this._myCompanyList.Add((MaintenanceEmployee)worker);
-            }
-            else if (worker is FinanceEmployee)
-            {
-                this._myCompanyList.Add((FinanceEmployee)worker);
-            }
-            else if (worker is ResourcesEmployee)
-            {
-                this._myCompanyList.Add((ResourcesEmployee)worker);
-            }
-
+            this._myCompanyList.Add(worker);
         }
         public void RemoveWorker(int serialNumber)//Remove worker by S.N and update the S.N of the list
         {

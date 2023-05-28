@@ -348,7 +348,7 @@ namespace Managment_System_Ptoject
             this.genderLbl.BackColor = System.Drawing.Color.Transparent;
             this.genderLbl.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.genderLbl.ForeColor = System.Drawing.Color.Black;
-            this.genderLbl.Location = new System.Drawing.Point(346, 245);
+            this.genderLbl.Location = new System.Drawing.Point(330, 245);
             this.genderLbl.Name = "genderLbl";
             this.genderLbl.Size = new System.Drawing.Size(87, 21);
             this.genderLbl.TabIndex = 14;

@@ -17,8 +17,6 @@ namespace Managment_System_Ptoject
     public partial class ViewForm : Form
     {
         PopupNotifier popup = new PopupNotifier();
-
-
         public static ViewForm instance { get; private set; }
         public ViewForm()
         {
@@ -110,7 +108,7 @@ namespace Managment_System_Ptoject
                 {
                     popup.Image = Properties.Resources.X;
                     popup.TitleText = "Search";
-                    popup.ContentText = "Employee not exist";
+                    popup.ContentText = "Employee doesn't exist";
                     popup.Popup();
                 }
             }
@@ -144,7 +142,7 @@ namespace Managment_System_Ptoject
                 }
             }
 
-            DialogResult result = MessageBox.Show("Are you sure ?", "Sign up", MessageBoxButtons.YesNo);
+            DialogResult result = MessageBox.Show("Are you sure ?", "Remove Employee", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
                 foreach (DataGridViewRow dgr in EmployesTable.SelectedRows)

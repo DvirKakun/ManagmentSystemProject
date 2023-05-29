@@ -30,7 +30,7 @@ namespace Managment_System_Ptoject
         } 
         public void constructTable()
         {
-            EmployesTable.DataSource = Program.myCompany._myCompanyList;
+            EmployesTable.DataSource = Program.myCompany._myCompanyList; //set the data source of the Table as the worker's list
             EmployesTable.Columns["_firstName"].HeaderCell.Value = "First Name";
             EmployesTable.Columns["_lastName"].HeaderCell.Value = "Last Name";
             EmployesTable.Columns["_phoneNumber"].HeaderCell.Value = "Phone Number";
@@ -59,7 +59,7 @@ namespace Managment_System_Ptoject
             System.Windows.Forms.Application.Exit();
         }
 
-        private string choiceString(string choose)
+        private string choiceString(string choose) //return the actual name of the column
         {
             string myChoice = "";
             if (choose.Equals("First Name"))
@@ -81,7 +81,7 @@ namespace Managment_System_Ptoject
             return myChoice;
 
         }
-        private void searchTbx_KeyDown(object sender, KeyEventArgs e)
+        private void searchTbx_KeyDown(object sender, KeyEventArgs e) //check if the pressed key is Enter and activate search, if the search text is empty or the "search by" text is empty do not activate the search
         {
             if(e.KeyCode == Keys.Enter && !string.IsNullOrEmpty(searchChoice.Text) && !string.IsNullOrEmpty(searchTbx.Text))
             {
@@ -104,7 +104,7 @@ namespace Managment_System_Ptoject
                         }
                     }
                 }
-                if (EmployesTable.SelectedRows.Count == 0)
+                if (EmployesTable.SelectedRows.Count == 0) //is the string doesn't match anything nothing will be selected
                 {
                     popup.Image = Properties.Resources.X;
                     popup.TitleText = "Search";
@@ -133,7 +133,7 @@ namespace Managment_System_Ptoject
             }
             foreach (DataGridViewRow dgr in EmployesTable.SelectedRows)
             {
-                if (dgr.Cells["_department"].Value.ToString().Equals("Manager"))
+                if (dgr.Cells["_department"].Value.ToString().Equals("Manager")) //show error if you are trying to remove a Manager
                 {
                     popup.Image = Properties.Resources.X;
                     popup.ContentText = "Manager Cannot Be Deleted";
@@ -166,7 +166,7 @@ namespace Managment_System_Ptoject
 
         }
 
-        private void EmployesTable_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        private void EmployesTable_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e) //double click on a specific cell and show the employee report
         {
             int index = e.RowIndex;
             if (index != -1)

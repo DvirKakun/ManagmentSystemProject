@@ -22,9 +22,9 @@ namespace Managment_System_Ptoject
         {
             loadingBar.Increment(5); // increase the loading bar by 5
             progressBarLabel.Text = loadingBar.Value + "%";
-            if (loadingBar.Value == 100)
+            if (loadingBar.Value == 100) //if the loading bar value is 100 we need to open the loginScreen form
             {
-                progressBarTimer.Stop();
+                progressBarTimer.Stop(); //stop the timer
                 this.Hide();
                 LoginScreen login = new LoginScreen(); //if the progressBar get to 100, stop the timer, go to the login screen
                 login.Show();

@@ -25,7 +25,7 @@ namespace Managment_System_Ptoject
             managerImg.AllowDrop = true;
         }
         
-        private int isLegalPassword(string password)
+        private int isLegalPassword(string password) //check if the password stands for the requriements
         {
             int i;
             int upperCounter = 0;
@@ -45,12 +45,12 @@ namespace Managment_System_Ptoject
             return lowerCounter & upperCounter;
 
         }
-        private bool isLegalEmail(string email)
+        private bool isLegalEmail(string email) //check if the mail stands for the requriements
         {
             string pattern = @"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$";
             return Regex.IsMatch(email, pattern);
         }
-        private int checkIfUsernameExist(string username)
+        private int checkIfUsernameExist(string username) //check if the username is exist in the file
         {
             if (File.Exists("myListFile") == false)
             {
@@ -68,7 +68,7 @@ namespace Managment_System_Ptoject
             }
             return 0;
         }
-        private int checkIfMailIsExist(string mail)
+        private int checkIfMailIsExist(string mail) //check if mail is exist in the file
         {
             if (File.Exists("myListFile") == false)
             {
@@ -84,7 +84,7 @@ namespace Managment_System_Ptoject
             return 0;
         }
 
-        private void phoneNumber_KeyPress(object sender, KeyPressEventArgs e)
+        private void phoneNumber_KeyPress(object sender, KeyPressEventArgs e) //ensure that the pressed key is a number and the length of the number is 10
         {
             char ch = e.KeyChar;
             if (ch == '\b')
@@ -97,7 +97,7 @@ namespace Managment_System_Ptoject
             }
         }
 
-        private void salary_KeyPress(object sender, KeyPressEventArgs e)
+        private void salary_KeyPress(object sender, KeyPressEventArgs e) //ensure that the pressed key is a number and the salary contains maximun 1 dot
         {
             char ch = e.KeyChar;
             if (ch == '.' && (salary.Text == "" || salary.Text.IndexOf(ch) != -1))
@@ -111,13 +111,13 @@ namespace Managment_System_Ptoject
             }
         }
 
-        private void showPassword_CheckedChanged(object sender, EventArgs e)
+        private void showPassword_CheckedChanged(object sender, EventArgs e) 
         {
             password.UseSystemPasswordChar = !password.UseSystemPasswordChar;
             confirmPassword.UseSystemPasswordChar = !confirmPassword.UseSystemPasswordChar;
         }
 
-        private void firstName_Leave(object sender, EventArgs e)
+        private void firstName_Leave(object sender, EventArgs e) //check if the text is empty when leaving the textBox
         {
             if (firstName.Text == "")
             {
@@ -129,7 +129,7 @@ namespace Managment_System_Ptoject
             }
         }
 
-        private void lastName_Leave(object sender, EventArgs e)
+        private void lastName_Leave(object sender, EventArgs e) //check if the text is empty when leaving the textBox
         {
             if (lastName.Text == "")
             {
@@ -141,7 +141,7 @@ namespace Managment_System_Ptoject
             }
         }
 
-        private void firstName_KeyPress(object sender, KeyPressEventArgs e)
+        private void firstName_KeyPress(object sender, KeyPressEventArgs e) //check if the pressed key is a char
         {
             char ch = e.KeyChar;
             if (!char.IsLetter(ch) && ch != 8) // 8 = backspace
@@ -150,7 +150,7 @@ namespace Managment_System_Ptoject
             }
         }
 
-        private  void username_Leave(object sender, EventArgs e)
+        private  void username_Leave(object sender, EventArgs e) //check if the text is empty or the username is exist
         {
             if (username.Text == "")
             {
@@ -418,7 +418,7 @@ namespace Managment_System_Ptoject
             System.Windows.Forms.Application.Exit();
         }
 
-        private void uploadImgBtn_Click(object sender, EventArgs e)
+        private void uploadImgBtn_Click(object sender, EventArgs e) //upload image button
         {
             string imagePath = "";
             OpenFileDialog dialog = new OpenFileDialog();

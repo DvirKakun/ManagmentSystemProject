@@ -1,0 +1,4 @@
+A C# project designed to assist companies in efficiently managing their  workforce. The system incorporates a classification mechanism, categorizing employees and assigning them to various departments based on their roles in the company.
+The system utilizes an object-oriented approach to organize and manage employees. Each employee is represented as an object, allowing for a clear and intuitive structure.
+The system using serialization techniques. This involves converting employee data into a serialized format, facilitating efficient storage, retrieval, and transmission of information.
+In addition, the system incorporates a registration and login mechanism for administrators. The mechanism accompanied by data validation checks and a verification process utilizing images managed through Drag & Drop event.
